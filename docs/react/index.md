@@ -12,3 +12,4 @@
 - [Lifecycle](foundation/lifecycle.md)
 - [Handling event](foundation/handling-event.md)
 - [Conditional rendering](foundation/conditional-rendering.md)
+- [Spitting component](foundation/splitting-component.md)

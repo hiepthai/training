@@ -70,7 +70,7 @@ const LoginForm = () => {
             <label htmlFor="userName">User name</label>
             <input id="userName" name="name" />
             <label htmlFor="userPassword">User name</label>
-            <input id="userPassword" name="password" />
+            <input id="userPassword" name="password" type="password" />
             <button type="submit" >Login</button>
         </form>
     )
