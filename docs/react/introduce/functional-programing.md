@@ -24,7 +24,9 @@ or
 const Welcome = (props) => <h1>Hello, {props.name}</h1>
 ```
 
-## Passing props and declair type
+** component name must start with uppercase or can not call like a JSX
+
+## Passing props and declare type
 
 ```tsx
 type Welcome = {
