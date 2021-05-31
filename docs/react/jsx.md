@@ -1,6 +1,6 @@
 # JSX What and Why
 
-```
+```html
 <h1>Hello word</h1>
 ```
 
@@ -8,12 +8,16 @@
 - But in JSX attribute of elements should be translate to kebap case like 'on-click' to 'onClick', 'class' to 'className'
 - Another is objective params, in the sample below. Attribute id is wrapped by a '{}' and style double it wrapper '{{}}'
 
-```
-const divId = 'root'
-...
-// Html
-<div id="$divId" style={ background-color: 'red' }></div>
+### Html
 
-// JSX
+```html
+const divId = 'root'
+
+<div id="$divId" style={ background-color: 'red' }></div>
+```
+
+### JSX
+
+```jsx
 <div id={id} style={{ backgroundColor: 'red' }} />
 ```

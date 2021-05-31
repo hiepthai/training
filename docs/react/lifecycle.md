@@ -182,7 +182,7 @@ Calling before component is destroyed
 
 ### 9. Class lifecycle
 
-```
+```tsx
 // run 1 time only when browser load this file on the first time
 const initCount = 0
 
@@ -222,7 +222,7 @@ class Welcome extends React.Component {
 
 In class, barely seen there are 2 spring 1 for init and destroy, 1 for update. While function simplify the lifecircle into one
 
-```
+```tsx
 // the same with above
 const init = 0
 const inCreaser = (i) => i++

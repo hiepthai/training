@@ -2,24 +2,32 @@
 
 Make app become simple and codable without class
 
-```
+```tsx
 class Welcome extends React.Component {
   render() {
     return <h1>Hello, {this.props.name}</h1>
   }
 }
-# compare with
+```
+
+compare with
+
+```tsx
 function Welcome(props) {
   return <h1>Hello, {props.name}</h1>
 }
-# or
+```
+
+or
+
+```tsx
 const Welcome = (props) => <h1>Hello, {props.name}</h1>
 ```
 
 ## Passing props and declair type
 
-```
-type Welcome {
+```tsx
+type Welcome = {
   name: string;
   age?: number;
 }
@@ -28,9 +36,9 @@ const Welcome = ({ name, age }: Welcome) => <h1>Hello, {name}, {age || 'no age'}
 
 ## Render function inside a function (children prop)
 
-```
+```tsx
 import { PropsWithChildren } from 'react'
-type CustomButton {
+type CustomButton = {
   backgroundColor?: string,
 }
 const CustomButton = ({ backgroundColor, children }: PropsWithChildren<CustomButton>) => <button style={{ backgroundColor }}>{children}</button>
@@ -38,8 +46,7 @@ const CustomButton = ({ backgroundColor, children }: PropsWithChildren<CustomBut
 
 then call it in Welcome
 
-```
-...
+```tsx
 const Welcome = ({ name }: Welcome) => (
   <div>
     <h1>Hello, {name}</h1>
