@@ -1,5 +1,11 @@
 # React Training
 
+## Prerequisite
+
+- [Node JS](prerequisite/nodejs.md)
+- [NVM](prerequisite/nvm.md)
+- [Yarn](prerequisite/yarn.md)
+
 ## Introduce
 
 - [JSX](introduce/jsx.md)

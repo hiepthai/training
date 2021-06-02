@@ -47,15 +47,15 @@ const Calculate = () => {
     }
     const minus = () => {
         const [a, b] = getValue()
-        setValue(a + b)
+        setValue(a - b)
     }
     const multiply = () => {
         const [a, b] = getValue()
-        setValue(a + b)
+        setValue(a * b)
     }
     const divide = () => {
         const [a, b] = getValue()
-        setValue(a + b)
+        setValue(a / b)
     }
     return (
         <div>
