@@ -1,4 +1,4 @@
-# WebSocket
+# WebSocket Basic
 Lightweight client-server communications
 
 ## Introduction
@@ -44,7 +44,7 @@ Basic communication between `WebSocketServer` and `WebSocket` client
 
 * Open terminal
 * Navigate to project root
-* Run `cd ./examples/websocket`
+* Run `cd ./examples/websocket-basic`
 * Run `npm i`
 * Run `node server.js`
 * Run `node client.js`
