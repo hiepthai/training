@@ -1,4 +1,4 @@
 # Training
 
 ## Courses
-* [WebSocket Basic](courses/websocket/websocket-basic.md)
+* [WebSocket Basic](courses/websocket-basic.md)
