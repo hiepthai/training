@@ -61,7 +61,9 @@ Websocket have a wide range of [close codes](https://www.iana.org/assignments/we
 * Run `npm run server`
 * Open `index.html`
 
-## Refs
-* [^1] [https://ably.com/topic/websockets](https://ably.com/topic/websockets)
-* [^2] [https://www.ietf.org](https://www.ietf.org)
+## Ebooks
 * [The websocket handbook](https://files.ably.com/website/documents/ebook/the-websocket-handbook.pdf)
+
+## Refs
+[^1]: [https://ably.com/topic/websockets](https://ably.com/topic/websockets)
+[^2]: [https://www.ietf.org](https://www.ietf.org)
